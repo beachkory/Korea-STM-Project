@@ -1,0 +1,7 @@
+&BANDS
+ outdir = '/scratch/beachk2/Korea/W-V-Se/noSOC/Sevac'
+ prefix = 'v'
+ filband = '/scratch/beachk2/Korea/W-V-Se/noSOC/Sevac/v.band.dat'
+ lsym = .false.
+/
+

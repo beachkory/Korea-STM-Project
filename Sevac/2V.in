@@ -1,0 +1,16 @@
+&inputpp
+    prefix  = 'v'
+    outdir  = '/scratch/beachk2/Korea/W-V-Se/noSOC/Sevac',
+    filplot = '/scratch/beachk2/Korea/W-V-Se/noSOC/Sevac/2V.STM'
+    plot_num= 5
+    !spin_component=0
+    sample_bias=0.1469973 
+    !emin = -0.23
+    !emax = 0.0717
+ /
+&plot
+  nfile=1
+  iflag=3
+  output_format=5
+  fileout='/scratch/beachk2/Korea/W-V-Se/noSOC/Sevac/2V.xsf'
+/
