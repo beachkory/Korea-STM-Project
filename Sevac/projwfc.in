@@ -1,0 +1,7 @@
+&PROJWFC
+prefix='v'
+outdir='/scratch/beachk2/Korea/W-V-Se/noSOC/Sevac'
+degauss=.01
+DeltaE=.01
+filpdos='/scratch/beachk2/Korea/W-V-Se/noSOC/Sevac/projwfc/v'
+/
