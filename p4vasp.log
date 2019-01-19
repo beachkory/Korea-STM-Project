@@ -2304,3 +2304,7 @@ STATUS:Reading gridpoint 2449832/2515456
 STATUS:Reading gridpoint 2475088/2515456
 STATUS:Reading gridpoint 2500344/2515456
 STATUS:Chgcar read OK.
+EXCEPT:Traceback (most recent call last):
+          File "<string>", line 660, in idle_func
+        IndexError: list index out of range
+       
