@@ -1,0 +1,70 @@
+
+     Program BANDS v.6.3 starts on 18Jan2019 at 19:26:17 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    40 processors
+
+     MPI processes distributed on     2 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      40
+
+     Reading data from directory:
+     /scratch/beachk2/Korea/W-V-Se/noSOC/Wvac/v.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBESOL ( 1  4 10  8 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+     Message from routine read_upf::
+     Pseudo file /scratch/beachk2/Korea/W-V-Se/W.pbesol-spn-kjpaw_psl.0.2.3.UPF has been successfully fixed on the fly.
+To avoid this message in the future you can permanently fix 
+ your pseudo files following instructions given in: 
+https://gitlab.com/QEF/q-e/blob/master/upftools/how_to_fix_upf.md
+               file W.pbesol-spn-kjpaw_psl.0.2.3.UPF: wavefunction(s)  5D renormalized
+     Message from routine read_upf::
+     Pseudo file /scratch/beachk2/Korea/W-V-Se/Se.pbesol-n-kjpaw_psl.0.2.UPF has been successfully fixed on the fly.
+To avoid this message in the future you can permanently fix 
+ your pseudo files following instructions given in: 
+https://gitlab.com/QEF/q-e/blob/master/upftools/how_to_fix_upf.md
+               file Se.pbesol-n-kjpaw_psl.0.2.UPF: wavefunction(s)  4S renormalized
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         285     285     73                25086    25086    3301
+     Max         286     286     74                25092    25092    3304
+     Sum       11425   11425   2941              1003523  1003523  132103
+ 
+
+     Check: negative/imaginary core charge=   -0.000012    0.000000
+
+     negative rho (up, down):  4.946E-02 0.000E+00
+     high-symmetry point:  0.0000 0.0000 0.0000   x coordinate   0.0000
+     high-symmetry point:  0.0000 0.2887 0.0000   x coordinate   0.2887
+     high-symmetry point:  0.0000-0.5774 0.0000   x coordinate   1.1547
+     high-symmetry point:  0.2500 0.4330 0.0000   x coordinate   2.1955
+     high-symmetry point: -0.2500 0.1443 0.0000   x coordinate   2.7729
+     high-symmetry point:  0.2500 0.1443 0.0000   x coordinate   3.2729
+     high-symmetry point:  0.5000-0.2887 0.0000   x coordinate   3.7729
+     high-symmetry point: -0.5000-0.2887 0.0000   x coordinate   4.7729
+     high-symmetry point: -0.2500 0.4330 0.0000   x coordinate   5.5366
+     high-symmetry point:  0.5000-0.0000 0.0000   x coordinate   6.4027
+
+     Plottable bands (eV) written to file /scratch/beachk2/Korea/W-V-Se/noSOC/Wvac/v.band.dat.gnu
+     Bands written to file /scratch/beachk2/Korea/W-V-Se/noSOC/Wvac/v.band.dat
+ 
+     BANDS        :    22.24s CPU        27.34s WALL
+
+ 
+   This run was terminated on:  19:26:45  18Jan2019            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

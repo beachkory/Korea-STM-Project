@@ -1,0 +1,67 @@
+
+     Program POST-PROC v.6.3 starts on 23Jan2019 at 17:21:13 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    40 processors
+
+     MPI processes distributed on     2 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      40
+
+     Reading data from directory:
+     /scratch/beachk2/Korea/W-V-Se/noSOC/Wvac/v.save/
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBESOL ( 1  4 10  8 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+     Message from routine read_upf::
+     Pseudo file /scratch/beachk2/Korea/W-V-Se/W.pbesol-spn-kjpaw_psl.0.2.3.UPF has been successfully fixed on the fly.
+To avoid this message in the future you can permanently fix 
+ your pseudo files following instructions given in: 
+https://gitlab.com/QEF/q-e/blob/master/upftools/how_to_fix_upf.md
+               file W.pbesol-spn-kjpaw_psl.0.2.3.UPF: wavefunction(s)  5D renormalized
+     Message from routine read_upf::
+     Pseudo file /scratch/beachk2/Korea/W-V-Se/Se.pbesol-n-kjpaw_psl.0.2.UPF has been successfully fixed on the fly.
+To avoid this message in the future you can permanently fix 
+ your pseudo files following instructions given in: 
+https://gitlab.com/QEF/q-e/blob/master/upftools/how_to_fix_upf.md
+               file Se.pbesol-n-kjpaw_psl.0.2.UPF: wavefunction(s)  4S renormalized
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         285     285     73                25086    25086    3301
+     Max         286     286     74                25092    25092    3304
+     Sum       11425   11425   2941              1003523  1003523  132103
+ 
+
+     Check: negative/imaginary core charge=   -0.000012    0.000000
+
+     negative rho (up, down):  4.946E-02 0.000E+00
+
+     Calling punch_plot, plot_num =   5
+     Use the true wfcs
+     Sample bias          = -1.0000 eV
+     STM          :      1.86s CPU      2.01s WALL (       1 calls)
+     Writing data to file  /scratch/beachk2/Korea/W-V-Se/noSOC/Wvac/m1V.STM
+     Reading data from file  /scratch/beachk2/Korea/W-V-Se/noSOC/Wvac/m1V.STM
+
+     Writing data to be plotted to file /scratch/beachk2/Korea/W-V-Se/noSOC/Wvac/m1V.xsf
+     Plot Type: 3D                     Output format: XCrySDen     
+ 
+     POST-PROC    :    21.36s CPU        40.10s WALL
+
+ 
+   This run was terminated on:  17:21:54  23Jan2019            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
